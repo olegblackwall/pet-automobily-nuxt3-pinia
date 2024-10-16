@@ -3,4 +3,7 @@ export default defineNuxtConfig({
     devtools: { enabled: false },
     css: ['bootstrap/dist/css/bootstrap.min.css'],
     modules: ['@pinia/nuxt'],
+    app: {
+        baseURL: 'pet-automobily-nuxt3-pinia'
+    }
 })
