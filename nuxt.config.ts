@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+    ssr: true,
     compatibilityDate: '2024-04-03',
     devtools: { enabled: false },
     css: ['bootstrap/dist/css/bootstrap.min.css'],
@@ -9,6 +10,6 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
             ]
-        }
+        },
     }
 })
